@@ -1,6 +1,4 @@
-navbar{
-  margin-top: 30px;   
-}
+
 .social,img{
    margin-right: auto;
    margin-left: auto;
@@ -233,17 +231,19 @@ p6{
   
 @media screen and (max-width: 900px) {
 
-    #bgm,.designs{
+    #bgm{
         width: 100%;
         height: 100%;
      }
         .flip-card{
-            display: flexbox;
-            
-            
+            text-align: center;
         } 
+        .designs{
+            margin-left: 60px;
+        }
         #frm{
-            display: inline-block;
+            margin-left: 20px;
+            width: 450px;
         }
         
 }
