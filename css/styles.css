@@ -16,8 +16,9 @@ h1{
 h2{
     text-align: center;
     color: honeydew;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
 }
 h2 a{
     text-decoration: none;
@@ -30,8 +31,9 @@ h2 a{
 }
 h3{
     color: honeydew;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
 }
 .skill{
     text-align: center;
@@ -185,6 +187,13 @@ p6{
   }
   .form-box{
       margin-top: 30px;
+      text-align: center;
+      box-shadow: burlywood;
+      box-shadow: 0 0 25px black;
+      background-color: transparent; 
+      border-radius: 25px;
+      width: 900px;
+      margin-left: 17%;
   }
   .input-group input{
       width: 40%;
@@ -217,14 +226,14 @@ p6{
     border-radius: 15px;
   }
   .jumbo{
-      text-align: center;
+      /* text-align: center;
       box-shadow: burlywood;
       box-shadow: 0 0 25px black;
       background-color: transparent; 
       border-radius: 25px;
       width: 900px;
       margin-left: 17%;
-      /* display: inline-block; */
+      display: inline-block; */
 
   }
 @media screen and (max-width: 900px) {
