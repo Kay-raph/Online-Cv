@@ -228,6 +228,25 @@ p6{
     cursor: pointer;
     border-radius: 15px;
   }
+  .column{
+    float: left;
+    padding: 5px;
+    width: 25%;
+  }
+  .row::after{
+      content: "";
+      display: table;
+      clear: both;
+  }
+  .mgs{
+    display: inline-block;
+    padding: 20px 80px;
+    margin: 5%;
+    text-align: center;
+    box-shadow: 0 0 45px black;
+    background-color: transparent; 
+    border-radius: 25px; 
+  }
   
 @media screen and (max-width: 900px) {
 
