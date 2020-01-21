@@ -179,18 +179,23 @@ p6{
       border-radius: 35px;
       width: 350px;
       margin-left: 37%;
-      display: inline-block;
+      
   }
  
   .container img{
       display: flexbox;
   }
+  #frm{
+      box-shadow: 0 0 25px black;
+      background-color: transparent;
+      border-radius: 35px;
+  }
   .form-box{
       margin-top: 30px;
       text-align: center;
       box-shadow: burlywood;
-      box-shadow: 0 0 25px black;
-      background-color: transparent; 
+      /* box-shadow: 0 0 25px black;
+      background-color: transparent;  */
       border-radius: 25px;
       width: 900px;
       margin-left: 17%;
@@ -225,20 +230,10 @@ p6{
     cursor: pointer;
     border-radius: 15px;
   }
-  .jumbo{
-      /* text-align: center;
-      box-shadow: burlywood;
-      box-shadow: 0 0 25px black;
-      background-color: transparent; 
-      border-radius: 25px;
-      width: 900px;
-      margin-left: 17%;
-      display: inline-block; */
-
-  }
+  
 @media screen and (max-width: 900px) {
 
-    #bgm,.form-box,.designs{
+    #bgm,.designs{
         width: 100%;
         height: 100%;
      }
@@ -247,5 +242,8 @@ p6{
             
             
         } 
+        #frm{
+            display: inline-block;
+        }
         
 }
