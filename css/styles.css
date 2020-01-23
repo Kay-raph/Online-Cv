@@ -188,12 +188,12 @@ p6{
       background-color: transparent;
       border-radius: 35px;
   }
-  .form-box{
+  .form{
       margin-top: 30px;
       text-align: center;
-      box-shadow: burlywood;
-      /* box-shadow: 0 0 25px black;
-      background-color: transparent;  */
+       box-shadow: burlywood; 
+       box-shadow: 0 0 25px black;
+      background-color: transparent;
       border-radius: 25px;
       width: 900px;
       margin-left: 17%;
@@ -248,7 +248,7 @@ p6{
     border-radius: 25px; 
   }
   
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
 
     #bgm{
         width: 100%;
@@ -260,9 +260,9 @@ p6{
         .designs{
             margin-left: 60px;
         }
-        #frm{
-            margin-left: 20px;
+        /* #frm{
+            margin-left: 60px;
             width: 450px;
-        }
+        } */
         
 }
