@@ -39,5 +39,11 @@
         $(".loops p6").toggle(1000);
         $(".loops #mg6").slideDown(1000).show(1000);;
     });
-});
+    $(".hobby .int").hide();
+    $(".hobby").click(function () {
+        $(".hobby .int").toggle(1000);
+        $(".hobby").slideUp(1000).show(1000);;
+    });
+})
+ 
 

@@ -1,42 +1,87 @@
-
-.social,img{
-   margin-right: auto;
-   margin-left: auto;
-   text-align: right;
-   margin-right: 0.5em;
+.social,
+img {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    margin-right: 0.5em;
 }
-h1{
+
+h1 {
     text-align: center;
     color: honeydew;
     font-size: 5rem;
     font-family: 'Permanent Marker', cursive;
 }
-h2{
+
+h2 {
     text-align: center;
     color: honeydew;
     font-size: 2.5rem;
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 2px;
 }
-h2 a{
+
+h2:hover {
+    animation: increase 0.5s linear 0.5s infinite;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    font-size: 3rem;
+    z-index: -2;
+}
+
+h1:hover {
+    animation: increase 0.5s linear 0.5s infinite;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    font-size: 7rem;
+    z-index: -2;
+}
+
+h2 a {
     text-decoration: none;
 }
-.about{
+
+.about {
     text-align: center;
     color: honeydew;
     font-size: 1rem;
     font-family: 'Permanent Marker', cursive;
 }
-h3{
+
+h3 {
+    text-align: center;
     color: honeydew;
     font-size: 2rem;
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 2px;
 }
-.skill{
+h4{
     text-align: center;
+    color: honeydew;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+    box-shadow: 0 0 25px black;
+    background-color: darkgray;
+    border-radius: 15px;
+    padding: 10px 0px;
+    width: 100px;
 }
-.exp{
+.bck{
+    align-items: center;
+}
+.skill {
+    text-align: center;
+    margin: 0 200px;
+}
+
+.exp {
     display: inline-block;
     width: 28%;
     padding: 30px 10px;
@@ -46,7 +91,12 @@ h3{
     background-color: hotpink;
     border-radius: 25px;
 }
-.dev{
+
+.exp:hover {
+    background-color: darkgrey;
+}
+
+.dev {
     display: inline-block;
     width: 28%;
     padding: 30px 10px;
@@ -56,7 +106,12 @@ h3{
     background-color: hotpink;
     border-radius: 25px;
 }
-.grap{
+
+.dev:hover {
+    background-color: darkgrey;
+}
+
+.grap {
     display: inline-block;
     width: 28%;
     padding: 30px 10px;
@@ -66,66 +121,92 @@ h3{
     background-color: hotpink;
     border-radius: 25px;
 }
-.ex{
+
+.grap:hover {
+    background-color: darkgrey;
+}
+
+.ex {
     display: inline-block;
     width: 28%;
     padding: 30px 10px;
     margin: 2%;
     text-align: center;
     box-shadow: 0 0 25px black;
-    background-color: hotpink; 
+    background-color: hotpink;
     border-radius: 25px;
 }
-.dj{
-    display: inline-block;
-    width: 28%;
-    padding: 30px 10px;
-    margin: 2%;
-    text-align: center;
-    box-shadow: 0 0 25px black;
-    background-color: hotpink; 
-    border-radius: 25px; 
+
+.ex:hover {
+    background-color: darkgrey;
 }
-.loops{
+
+.dj {
     display: inline-block;
     width: 28%;
     padding: 30px 10px;
     margin: 2%;
     text-align: center;
     box-shadow: 0 0 25px black;
-    background-color: hotpink; 
+    background-color: hotpink;
     border-radius: 25px;
 }
-p1{
+
+.dj:hover {
+    background-color: darkgrey;
+}
+
+.loops {
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 25px black;
+    background-color: hotpink;
+    border-radius: 25px;
+}
+
+.loops:hover {
+    background-color: darkgrey;
+}
+
+p1 {
     display: none;
     text-align: center;
     color: khaki;
 }
-p2{
+
+p2 {
     display: none;
     text-align: center;
     color: khaki;
 }
-p3{
+
+p3 {
     display: none;
     text-align: center;
     color: khaki;
 }
-p4{
+
+p4 {
     display: none;
     text-align: center;
     color: khaki;
 }
-p5{
+
+p5 {
     display: none;
     text-align: center;
     color: khaki;
 }
-p6{
+
+p6 {
     display: none;
     text-align: center;
     color: khaki;
 }
+
 .flip-card {
     width: 400px;
     height: 400px;
@@ -135,134 +216,185 @@ p6{
     padding-left: 40px;
     text-align: center;
     margin-left: 18px;
-  }
-  
-  .flip-card-inner {
+}
+
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.9s;
     transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
+}
+
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     transition-delay: 0.6s;
     display: inline-block;
-  }
-  
-  .flip-card-front, .flip-card-back {
+}
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
+}
+
+.flip-card-front {
     background-color: #bbb;
-    
-  }
-  
-  .flip-card-back {
+
+}
+
+.flip-card-back {
     background-color: hotpink;
     transform: rotateY(180deg);
     border-radius: 15px;
-    
-  }
-  .designs{
-      text-align: center;
-      box-shadow: 0 0 25px black;
-      background-color: hotpink; 
-      border-radius: 35px;
-      width: 350px;
-      margin-left: 37%;
-      
-  }
- 
-  .container img{
-      display: flexbox;
-  }
-  #frm{
-      box-shadow: 0 0 25px black;
-      background-color: transparent;
-      border-radius: 35px;
-  }
-  .form{
-      margin-top: 30px;
-      text-align: center;
-       box-shadow: burlywood; 
-       box-shadow: 0 0 25px black;
-      background-color: transparent;
-      border-radius: 25px;
-      width: 900px;
-      margin-left: 17%;
-  }
-  .input-group input{
-      width: 40%;
-      border: 0;
-      outline: none !important;
-      padding: 10px;
-      margin: 5%;
-      display: inline-block;
-      background-color:hotpink;
-      border-radius: 15px;
-  }
-  .text-area textarea{
-      width: 90%;
-      border: 0;
-      outline: none !important;
-      padding: 10px;
-      margin: 5%;
-      background-color:hotpink;
-      border-radius: 15px;
-  }
-  .submit-btn{
+
+}
+
+.designs {
+    text-align: center;
+    box-shadow: 0 0 25px black;
+    background-color: hotpink;
+    border-radius: 35px;
+    width: 350px;
+    margin-left: 37%;
+
+}
+
+.designs:hover {
+    background-color: darkgray;
+}
+
+.hobby {
+    background: darkgray;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+}
+
+.hobby:hover {
+    background-color: hotpink;
+}
+
+.int:hover,
+p1,
+p2,
+p3,
+p4,
+p5,
+p6 {
+    color: white;
+}
+
+.int {
+    display: none;
+    text-align: center;
+    color: khaki;
+}
+
+.container img {
+    display: flexbox;
+}
+
+#frm {
+    box-shadow: 0 0 25px black;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.form {
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: burlywood;
+    box-shadow: 0 0 25px black;
+    background-color: transparent;
+    border-radius: 25px;
+    width: 900px;
+    margin-left: 17%;
+}
+
+.input-group input {
+    width: 40%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 5%;
+    display: inline-block;
+    background-color: hotpink;
+    border-radius: 15px;
+}
+
+.text-area textarea {
+    width: 90%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 5%;
+    background-color: hotpink;
+    border-radius: 15px;
+}
+
+.submit-btn {
     border: 0;
     color: black;
     text-decoration: none;
     outline: none !important;
     padding: 10px;
     margin: 5%;
-    background-color:hotpink;
+    background-color: hotpink;
     cursor: pointer;
     border-radius: 15px;
-  }
-  .column{
+}
+
+.submit-btn:hover {
+    background-color: darkgray;
+}
+
+.column {
     float: left;
     padding: 5px;
     width: 25%;
-  }
-  .row::after{
-      content: "";
-      display: table;
-      clear: both;
-  }
-  .mgs{
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mgs {
     display: inline-block;
     padding: 20px 80px;
     margin: 5%;
     text-align: center;
-    box-shadow: 0 0 45px black;
-    background-color: transparent; 
-    border-radius: 25px; 
-  }
-  
+    box-shadow: 0 0 0px black;
+    background-color: darkgray;
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 1080px) {
 
-    #bgm{
+    #bgm {
         width: 100%;
         height: 100%;
-     }
-        .flip-card{
-            text-align: center;
-        } 
-        .designs{
-            margin-left: 60px;
-        }
-        /* #frm{
-            margin-left: 60px;
-            width: 450px;
-        } */
-        
+    }
+
+    .flip-card {
+        text-align: center;
+    }
+
+    .designs {
+        margin: 60px;
+    }
+
+    .skill {
+        margin: 0%;
+    }
+
+    .hobby {
+        margin: 0%;
+    }
 }
