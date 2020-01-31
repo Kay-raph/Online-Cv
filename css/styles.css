@@ -5,7 +5,6 @@ img {
     text-align: right;
     margin-right: 0.5em;
 }
-
 h1 {
     text-align: center;
     color: honeydew;
@@ -374,6 +373,12 @@ p6 {
     background-color: darkgray;
     border-radius: 25px;
 }
+#wp-block-separator {
+	border: none;
+	border-bottom: 4px solid hotpink;
+	/* max-width: 100px; */
+    margin: 1em auto;
+ }
 
 @media screen and (max-width: 1080px) {
 
